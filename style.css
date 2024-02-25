@@ -1,0 +1,82 @@
+body {
+    background-color: cadetblue;
+}
+
+/** ortala hissəsi */
+.ortala {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+.d1 {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.d2 {
+    width: 200px;
+    height: 200px;
+    background-color: chartreuse;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    margin-top: 10px;
+}
+
+
+/** buttonlar hissəsi */
+.buttonlar {
+    margin-top: 20px;
+    display: flex;
+}
+
+.b1, .b2, .b3 {
+    width: 100px;
+    height: 40px;
+    background-color: darkorange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    margin-right: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+/** classList hissəsi*/
+.göstər {
+    display: block;
+}
+
+.gizlə {
+    display: none;
+}
+
+.keçit {
+    display: none;
+}
+
+
